@@ -1,0 +1,44 @@
+/* Облачная тема */
+body {
+  background: #f0f4f8;
+  color: #333;
+  font-family: "Segoe UI", Roboto, sans-serif;
+}
+/* Navbar */
+.navbar-cloud {
+  background-color: #ffffff !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.navbar-cloud .nav-link {
+  color: #555 !important;
+  font-weight: 500;
+}
+.navbar-cloud .nav-link:hover {
+  color: #007bff !important;
+}
+/* Карточки заметок */
+.card-cloud {
+  background-color: #ffffff;
+  border: 1px solid #e0e6ed;
+  transition: box-shadow .3s;
+}
+.card-cloud:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+/* Кнопки */
+.btn-cloud {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+.btn-cloud:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+/* Page transitions */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .3s;
+}
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+}
